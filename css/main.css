@@ -92,3 +92,26 @@ main .main-input input{
     outline: none;
 }
 
+main .main-input-container:hover{
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe1e500;
+}
+
+main .main-input .search-icon{
+    background-image: url('https://img.icons8.com/material-sharp/48/000000/search.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+}
+
+main .main-input .micro-icon{
+    background-image: url('https://www.pinclipart.com/picdir/big/32-322562_open-google-microphone-icon-clipart.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
